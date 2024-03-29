@@ -17,15 +17,6 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={inter.className}>
-                <Toolbar>
-                    <Typography
-                        component="h1"
-                        variant="h6"
-                        color="inherit"
-                        noWrap>
-                        Dashboard
-                    </Typography>
-                </Toolbar>
                 {children}
             </body>
         </html>
